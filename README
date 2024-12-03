@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#======================================================#
+# Script: structural optimization script  for siesta   #
+# Author: Mohan L Verma, Computational Nanomaterial    #  
+# Research lab, Department of Applied Physics,         #
+# Shri Shanakaracharya Technical Campus-Junwani        # 
+# Bhilai(Chhattisgarh)  INDIA                          #
+# Feb 24   ver: 2.0    year: 2023                      #
+# it is assumed that siesta.exe binary file is linked  #
+# bin directory after parallel compilation of siesta   #
+#------------------------------------------------------#
+
+Step-by-step optimization (cutoff, kpoint, lattice constant and final optimization ) of a system before study of properties. 
+
+Make a folder/dir for your system under study and copy all the four scripts alongwith the corresponding pseudopotential *.psf files.  
+use these scripts as per instructions given in each scripts as statements. 
+
+Before running the scripts modify as per your system under study. 
+
+The sequence to use all these scripts are :
+1. mlv_script_cutoff.sh 
+2. mlv_script_kpoints.sh
+3. mlv_script_lattice.sh
+4. mlv_script_optim.sh
+
+
+ Try  this and give tye feedback to drmohanlv@gmail.com And feel free to contact in case of any error or doubt therein.  
+ 
+ 
+ Dr Mohan L Verma 
+
+
